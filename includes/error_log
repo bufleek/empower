@@ -1,0 +1,21 @@
+[04-Jul-2019 03:48:55 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/kapchel1/public_html/includes/dbh.inc.php on line 8
+[04-Jul-2019 03:48:55 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/kapchel1/public_html/includes/stud_login.inc.php on line 8
+[04-Jul-2019 03:48:55 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/kapchel1/public_html/includes/stud_login.inc.php on line 9
+[04-Jul-2019 03:54:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/kapchel1/public_html/includes/dbh.inc.php on line 8
+[04-Jul-2019 03:54:14 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/kapchel1/public_html/includes/stud_login.inc.php on line 8
+[04-Jul-2019 03:54:14 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/kapchel1/public_html/includes/stud_login.inc.php on line 9
+[04-Jul-2019 04:01:58 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/kapchel1/public_html/includes/dbh.inc.php on line 8
+[04-Jul-2019 04:01:58 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/kapchel1/public_html/includes/stud_login.inc.php on line 8
+[04-Jul-2019 04:01:58 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/kapchel1/public_html/includes/stud_login.inc.php on line 9
+[04-Jul-2019 04:02:04 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/kapchel1/public_html/includes/dbh.inc.php on line 8
+[04-Jul-2019 04:02:04 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/kapchel1/public_html/includes/stud_login.inc.php on line 8
+[04-Jul-2019 04:02:04 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/kapchel1/public_html/includes/stud_login.inc.php on line 9
+[04-Jul-2019 04:02:17 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/kapchel1/public_html/includes/dbh.inc.php on line 8
+[04-Jul-2019 04:02:17 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/kapchel1/public_html/includes/stud_login.inc.php on line 8
+[04-Jul-2019 04:02:17 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/kapchel1/public_html/includes/stud_login.inc.php on line 9
+[04-Jul-2019 04:07:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/kapchel1/public_html/includes/dbh.inc.php on line 8
+[04-Jul-2019 04:07:10 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/kapchel1/public_html/includes/stud_login.inc.php on line 8
+[04-Jul-2019 04:07:10 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/kapchel1/public_html/includes/stud_login.inc.php on line 9
+[04-Jul-2019 04:07:28 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/kapchel1/public_html/includes/dbh.inc.php on line 8
+[04-Jul-2019 04:07:28 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/kapchel1/public_html/includes/stud_login.inc.php on line 8
+[04-Jul-2019 04:07:28 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/kapchel1/public_html/includes/stud_login.inc.php on line 9

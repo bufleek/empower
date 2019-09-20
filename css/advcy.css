@@ -1,0 +1,64 @@
+*{padding:0; margin:0; box-sizing: border-box;}
+body{font-family: Verdana, sans-serif;}
+
+.top-header{
+    background-image:linear-gradient(to right, #000000,#000990,#000990,#000000);
+}
+.nav-section{
+    background-color:#000000;
+    color:#ffffff;
+    position:sticky;
+    position:-webkit-sticky;
+    top:0;
+}
+.org-name h1{
+    text-align: center;
+    color:#008E98;
+}
+.org-name p{
+    text-align: center;
+}
+.main-content{
+    background-color:rgba(34, 0, 0, 0.5);
+    margin:0 0 0 0;
+}
+.main-content h3{
+    padding:2% 0 1% 1%;
+}
+.main-content p{
+    padding-left:1%;
+}
+.sub-content-1{
+    background-image:url('../imgs/background2.jpg');
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+.sub-content-1 h2, .sub-content-1 h3, .sub-content-1 h4, .sub-content-1 p{
+    background-color: rgba(255, 255, 255, 0.3904);
+    padding:1% 1% 0 1%;
+    font-family: cursive;
+}
+.sub-content-1 p{
+    color:#000000;
+    font-family: unset;
+}
+.sub-content-1 h4{
+    color:lightgreen;
+    font-family: cursive;
+}
+footer{
+    height:25vh;
+    background-image:linear-gradient(to right, #000000,#000980,#200980,#000000);
+}
+footer ul li a{
+    text-decoration:none;
+    color:#ffffff;
+    opacity:1;
+}
+footer ul li a:hover{
+    opacity:0.5;
+}
+.our-developers-section:hover{
+    opacity:0.5;
+}

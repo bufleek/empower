@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+table th,
+#myTable td {
+  text-align: left;
+  padding: 14px;
+}
+#myTable td {
+  border-bottom: 1px solid rgb(4, 11, 37);
+}
+#myTable tr.header {
+  background-color: rgba(4, 46, 29, 0.524);
+}
+#myTable tr:hover {
+  background-color: rgb(41, 3, 41);
+  color: #fff;
+}
+#myTable {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: calc(95% - 40px);
+  overflow-x: scroll;
+  margin-left: auto;
+  margin-right: auto;
+}
+.delete {
+  background: #f70e1a;
+}
+.edit {
+  background: rgb(3, 90, 3);
+}
+
+.delete,
+.edit {
+  padding: 10px;
+  width: 30px;
+  border-radius: 2px;
+}

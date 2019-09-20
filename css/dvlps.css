@@ -1,0 +1,61 @@
+*{padding:0; margin:0; box-sizing: border-box;}
+body{font-family: Verdana, sans-serif;}
+
+.top-header{
+    background-image:linear-gradient(to right, #000000,#000990,#000990,#000000);
+}
+.nav-section{
+    background-color:#000000;
+    color:#ffffff;
+    position:sticky;
+    position:-webkit-sticky;
+    top:0;
+}
+.logo-container{
+    width:40px;
+    margin:0 auto;
+    padding:1% 0 0 0;
+}
+.logo{
+    width:100%;
+    height:100%;
+}
+.org-name h1{
+    text-align: center;
+    color:#008E98;
+}
+.org-name p{
+    text-align: center;
+}
+.main-content{
+    margin:1% 0 0 0;
+    background-image:url('../imgs/dvlp.jpg');
+    background-attachment: local;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.main-content .inner{
+    background-image:linear-gradient(to bottom, rgba(78,0,0,0.9),rgba(0,78,0,0.9),rgba(0,0,78,0.9) );
+}
+.main-content p{
+    font-weight:bold;
+}
+
+footer{
+    height:25vh;
+    background-image:linear-gradient(to right, #000000,#000980,#200980,#000000);
+}
+footer ul li a{
+    text-decoration:none;
+    color:#ffffff;
+    opacity:1;
+}
+footer ul li a:hover{
+    opacity:0.5;
+}
+.our-developers-section:hover{
+    opacity:0.5;
+}
+._dvlps_logo{
+    width:150px
+}

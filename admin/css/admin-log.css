@@ -1,0 +1,108 @@
+body {
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+    -30deg,
+    #1ec4e9 0%,
+    #673ab7 50%,
+    #262626 50%,
+    #607d8b 100%
+  );
+}
+#form-container {
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9);
+  max-width: 550px;
+  min-width: 360px;
+}
+.log-form {
+  position: relative;
+  padding: 40px 20px 40px 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+  box-shadow: 0 60px 50px rgba(0, 0, 0, 0.3);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.log-form h2 {
+  text-align: center;
+  margin: 0 0 20px;
+  padding: 0;
+  font-size: 1.5em;
+  color: #fff;
+}
+.log-form .inputbox {
+  position: relative;
+  margin: 40px 0 20px;
+  width: 100%;
+}
+.log-form .inputbox input {
+  position: absolute;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  outline: none;
+  padding: 10px 0;
+  width: 100%;
+  color: #fff;
+  transition: 0.5s;
+  font-size: 1.2em;
+}
+.log-form .inputbox label {
+  position: relative;
+  font-size: 1em;
+  color: #ffffff;
+  padding: 10px 0px;
+  display: inline-block;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.log-form .inputbox.active input {
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
+.log-form .inputbox.active label {
+  color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-30px);
+}
+
+.btn {
+  background: none;
+  position: relative;
+  display: block;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9);
+  border: none;
+  padding: 14px 30px;
+  overflow: hidden;
+  transition: 1s all ease;
+  cursor: pointer;
+}
+.btn6::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #262626;
+  transform-origin: left;
+  transition: transform 0.4s ease;
+  transform: scaleX(1);
+  z-index: -1;
+}
+.btn6:hover::before {
+  height: 100%;
+  transform-origin: right;
+  transition: transform 0.4s ease;
+  transform: scaleX(0);
+}
+
+.error {
+  color: tomato;
+  text-align: center;
+}

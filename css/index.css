@@ -1,0 +1,101 @@
+*{padding:0; margin:0; box-sizing: border-box;}
+body{font-family: Verdana, sans-serif;}
+
+.top-header{
+    background-image:linear-gradient(to right, #000000,#000990,#000990,#000000);
+}
+.nav-section{
+    background-color:#000000;
+    color:#ffffff;
+    position:sticky;
+    position:-webkit-sticky;
+    top:0;
+    z-index: 1000;
+}
+.logo-container{
+    width:40px;
+    margin:0 auto;
+    padding:2px 0 0 0;
+}
+.logo{
+    width:100%;
+    height:100%;
+}
+.org-name h1{
+    text-align: center;
+    color:#008E98;
+}
+.org-name p{
+    text-align: center;
+}
+.post-slider-content{
+    color:#000000;
+}
+.post-slider-content .content-section2{
+    background-image: url('../imgs/background1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.content-section2 .inner-content{
+    background-color:rgba(34, 0, 0, 0.7);
+    color:#ffffff;
+    margin:1% 0 0 0;
+}
+.aloevera-plant-container{
+    margin:0 0 0 1%;
+} 
+.aloevera-title{
+    padding-bottom:1%;
+}
+.aloevera-title a{
+    font-size:90%;
+    color:burlywood;
+}
+.content-section3{
+    background-image: url('../imgs/background1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content-section3 .inner-content{
+    background-color:rgba(0, 0, 34, 0.7);
+    color:#ffffff;
+}
+.content-section3 .inner-content h1 a{
+    color:burlywood;
+    font-size:90%;
+}
+.leather-container{
+    margin:0 0 0 1%;
+}
+footer{
+    height:25vh;
+    background-image:linear-gradient(to right, #000000,#000980,#200980,#000000);
+}
+footer ul li a{
+    text-decoration:none;
+    color:#ffffff;
+    opacity:1;
+}
+footer ul li a:hover{
+    opacity:0.5;
+}
+.our-developers-section:hover{
+    opacity:0.5;
+}
+
+
+/*================mobile=================*/
+@media (max-width:600px){
+    .aloevera-plant-container{
+        width:96%;
+        margin:0 auto;
+    }
+    .aloevera-plant{
+        width:100%;
+    }
+}
+@media (min-width:600px){
+}

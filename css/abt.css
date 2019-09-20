@@ -1,0 +1,119 @@
+*{padding:0; margin:0; box-sizing: border-box;}
+body{font-family: Verdana, sans-serif;}
+
+.top-header{
+    background-image:linear-gradient(to right, #000000,#000990,#000990,#000000);
+}
+.nav-section{
+    background-color:#000000;
+    color:#ffffff;
+    position:sticky;
+    position:-webkit-sticky;
+    top:0;
+}
+.org-name h1{
+    text-align: center;
+    color:#008E98;
+}
+.org-name p{
+    text-align: center;
+}
+.post-top-header .shared-moments-container{
+    width:96%;
+    margin:0 auto;
+    padding:1% 0 0 0;
+}
+.post-top-header .shared-moments-container img{
+    width:100%;
+}
+.post-top-header .motto_container{
+    background-color:#000000;
+    color:#ffffff;
+    text-align: center;
+}
+.post-top-header .motto_container h3{
+    font-family: cursive;
+    padding:5px 0 5px 0;
+}
+.post-top-header .motto_container p{
+    padding:0 0 3px 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:burlywood;
+}
+.post-top-header .motto_container .img_logo{
+    padding:1% 0 0 0;
+}
+.post-top-header .motto_container ._logo{
+    width:250px;
+    border-radius:50%;
+}
+.post-top-header .motto_container ul li{
+    color:burlywood;
+}
+.main-content{
+    background-image: url('../imgs/background2.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.main-content h3, .main-content p{
+    background-color:rgba(10, 0, 40, 0.7);
+    padding:1% 1% 0 1%;
+}
+.main-content h3{
+    color:lightblue;
+}
+.main-content p{
+    color:burlywood;
+}
+footer{
+    height:25vh;
+    background-image:linear-gradient(to right, #000000,#000980,#200980,#000000);
+}
+footer ul li a{
+    text-decoration:none;
+    color:#ffffff;
+    opacity:1;
+}
+footer ul li a:hover{
+    opacity:0.5;
+}
+.our-developers-section:hover{
+    opacity:0.5;
+}
+
+
+
+
+/*==========desktop==========*/
+@media (min-width:600px){
+    .post-top-header{
+        display:flex;
+        padding:0 0 1% 3%;
+        background-color:#000000;
+        max-width: 100%;
+    }
+    .post-top-header .shared-moments-container{
+        display:flex;
+        flex-direction: column;
+        max-width:60%;
+        padding-right:0;
+        margin-right:0;
+        padding-left:0;
+        margin-left:0;
+    }
+    .post-top-header .shared-moments-container img{
+        height:auto;
+        width:auto;
+        max-width: 100%;
+        overflow-x:hidden;
+    }
+
+    .post-top-header .motto_container .img_logo{
+        padding:2% 0 0 1%;
+    }
+     
+    
+
+}
